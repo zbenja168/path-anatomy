@@ -1,0 +1,210 @@
+[
+  {
+    "id": "paanat-001",
+    "imageRef": "paanat-001_pa002_f04.png",
+    "answer": "Heart",
+    "brick": "Autopsy",
+    "category": "Gross Anatomy",
+    "explanation": "The labeled superior/inferior vena cava, aorta, pulmonary artery and veins, atria, and ventricles identify this as a dissection of the heart, demonstrating the four-chamber cardiac anatomy."
+  },
+  {
+    "id": "paanat-002",
+    "imageRef": "paanat-002_pa004_f04.png",
+    "answer": "Recanalization",
+    "brick": "Thrombosis and Its Consequences",
+    "category": "Histology & Cell Biology",
+    "explanation": "New endothelial-lined lumina forming through an organized thrombus create channels that partially restore blood flow through the previously occluded vessel."
+  },
+  {
+    "id": "paanat-003",
+    "imageRef": "paanat-003_pa011_f01.png",
+    "answer": "Mycobacterium tuberculosis",
+    "brick": "Chronic Infections",
+    "category": "Histology & Cell Biology",
+    "explanation": "The acid-fast (Ziehl-Neelsen) stain highlights Mycobacterium tuberculosis because its mycolic-acid-rich waxy cell wall retains carbolfuchsin even after acid-alcohol washing."
+  },
+  {
+    "id": "paanat-004",
+    "imageRef": "paanat-004_pa011_f10.png",
+    "answer": "Treponema pallidum",
+    "brick": "Chronic Infections",
+    "category": "Histology & Cell Biology",
+    "explanation": "Silver stains reveal the corkscrew-shaped spirochete Treponema pallidum, the causative agent of syphilis."
+  },
+  {
+    "id": "paanat-005",
+    "imageRef": "paanat-005_pa012_f07.png",
+    "answer": "Pneumocystis jirovecii",
+    "brick": "Chronic Infections",
+    "category": "Histology & Cell Biology",
+    "explanation": "The frothy casts and silver-positive cyst walls identify Pneumocystis jirovecii pneumonia, a defining opportunistic infection of AIDS. It characteristically produces bilateral interstitial infiltrates with diffuse ground-glass opacities on CT."
+  },
+  {
+    "id": "paanat-006",
+    "imageRef": "paanat-006_pa012_f09.png",
+    "answer": "Kaposi sarcoma",
+    "brick": "Chronic Infections",
+    "category": "Histology & Cell Biology",
+    "explanation": "Kaposi sarcoma is composed of proliferating spindled endothelial cells and is associated with HHV-8 (also called KSHV). It is a secondary neoplasm of AIDS, presenting as cutaneous, mucosal, or visceral violaceous lesions."
+  },
+  {
+    "id": "paanat-007",
+    "imageRef": "paanat-007_pa012_f10.png",
+    "answer": "Effusion lymphoma",
+    "brick": "Chronic Infections",
+    "category": "Histology & Cell Biology",
+    "explanation": "Primary effusion lymphoma is an aggressive B-cell lymphoma of body-cavity effusions associated with HHV-8 (often with EBV co-infection). Like other AIDS lymphomas it arises from viral-induced transformation in the setting of immunosuppression."
+  },
+  {
+    "id": "paanat-008",
+    "imageRef": "paanat-008_pa013_f01.png",
+    "answer": "HLA complex",
+    "brick": "Transplantation",
+    "category": "Histology & Cell Biology",
+    "explanation": "The diagram shows the HLA (MHC) gene complex at 6p21. These genes encode cell-surface MHC molecules that present peptide antigens, allowing the immune system to distinguish self from non-self, which is the basis of transplant matching and rejection."
+  },
+  {
+    "id": "paanat-009",
+    "imageRef": "paanat-009_pa016_f06.png",
+    "answer": "Chronic viral hepatitis",
+    "brick": "Infectious and Inflammatory Jaundice",
+    "category": "Histology & Cell Biology",
+    "explanation": "Hepatitis C rarely causes symptomatic acute infection but frequently becomes chronic, marked by portal lymphocytic/lymphoplasmacytic inflammation that can progress to cirrhosis."
+  },
+  {
+    "id": "paanat-010",
+    "imageRef": "paanat-010_pa016_f07.png",
+    "answer": "Bridging fibrosis",
+    "brick": "Infectious and Inflammatory Jaundice",
+    "category": "Histology & Cell Biology",
+    "explanation": "The trichrome stain colors collagen blue, highlighting the delicate bridging fibrosis that develops later in the course of chronic hepatitis C."
+  },
+  {
+    "id": "paanat-011",
+    "imageRef": "paanat-011_pa020_f02.png",
+    "answer": "Rosettes",
+    "brick": "Molecular Basis of Neoplasia",
+    "category": "Histology & Cell Biology",
+    "explanation": "Homer Wright rosettes (radial cells around a fibrillar center) and Flexner-Wintersteiner rosettes (cells around a true lumen) are both characteristic histologic features of retinoblastoma."
+  },
+  {
+    "id": "paanat-012",
+    "imageRef": "paanat-012_pa021_f01.png",
+    "answer": "Mitotic figures",
+    "brick": "Introduction to Pathology, Cell Injury, and Adaptation",
+    "category": "Histology & Cell Biology",
+    "explanation": "The arrows point to mitotic figures (condensed dividing chromosomes staining dark purple). Abundant mitoses are a morphologic marker of rapid cellular proliferation, seen here in a medulloblastoma."
+  },
+  {
+    "id": "paanat-013",
+    "imageRef": "paanat-013_pa021_f03.png",
+    "answer": "Cellular swelling",
+    "brick": "Introduction to Pathology, Cell Injury, and Adaptation",
+    "category": "Histology & Cell Biology",
+    "explanation": "Depleted ATP impairs Na+/K+ pumps, causing water influx and cellular swelling with pale, eosinophilic cytoplasm. This is a hallmark of reversible injury and resolves if the stimulus is removed."
+  },
+  {
+    "id": "paanat-014",
+    "imageRef": "paanat-014_pa024_f01.png",
+    "answer": "Small cell carcinoma",
+    "brick": "Paraneoplastic Syndromes",
+    "category": "Histology & Cell Biology",
+    "explanation": "The morphology (small blue cells, scant cytoplasm, nuclear molding, dispersed chromatin) is that of small cell lung carcinoma, a poorly differentiated neuroendocrine tumor derived from Kulchitsky cells. This origin explains its capacity for ectopic hormone production (ACTH, ADH) and neurologic paraneoplastic syndromes."
+  },
+  {
+    "id": "paanat-015",
+    "imageRef": "paanat-015_pa026_f02.png",
+    "answer": "Reed-Sternberg cell",
+    "brick": "Pathogen-Associated Neoplasms",
+    "category": "Histology & Cell Biology",
+    "explanation": "The bilobed, owl-eye Reed-Sternberg cell with prominent eosinophilic nucleoli is the pathognomonic histologic finding of classic Hodgkin lymphoma, roughly half of which are EBV-associated."
+  },
+  {
+    "id": "paanat-016",
+    "imageRef": "paanat-016_pa026_f03.png",
+    "answer": "Burkitt lymphoma",
+    "brick": "Pathogen-Associated Neoplasms",
+    "category": "Histology & Cell Biology",
+    "explanation": "The pale tingible body macrophages scattered among the dark neoplastic B-cells create the 'starry sky' appearance characteristic of Burkitt lymphoma."
+  },
+  {
+    "id": "paanat-017",
+    "imageRef": "paanat-017_pa026_f05.png",
+    "answer": "Nasopharyngeal carcinoma",
+    "brick": "Pathogen-Associated Neoplasms",
+    "category": "Histology & Cell Biology",
+    "explanation": "The EBV-associated non-keratinizing (undifferentiated) subtype of nasopharyngeal carcinoma shows undifferentiated epithelial cells with a dense lymphocytic infiltrate."
+  },
+  {
+    "id": "paanat-018",
+    "imageRef": "paanat-018_pa026_f13.png",
+    "answer": "Flower cell",
+    "brick": "Pathogen-Associated Neoplasms",
+    "category": "Histology & Cell Biology",
+    "explanation": "A multi-lobulated, flower-shaped nucleus is seen in the acute phase of adult T-cell leukemia/lymphoma associated with HTLV-1 infection."
+  },
+  {
+    "id": "paanat-019",
+    "imageRef": "paanat-019_pa026_f15.png",
+    "answer": "Chronic gastritis",
+    "brick": "Pathogen-Associated Neoplasms",
+    "category": "Histology & Cell Biology",
+    "explanation": "H. pylori induces chronic gastritis characterized by a mucosal infiltrate of lymphocytes and plasma cells, the first step in the cascade toward adenocarcinoma."
+  },
+  {
+    "id": "paanat-020",
+    "imageRef": "paanat-020_pa026_f16.png",
+    "answer": "Intestinal metaplasia",
+    "brick": "Pathogen-Associated Neoplasms",
+    "category": "Histology & Cell Biology",
+    "explanation": "Intestinal metaplasia (goblet and Paneth cells replacing gastric epithelium) is a premalignant step in the H. pylori-driven progression toward gastric adenocarcinoma."
+  },
+  {
+    "id": "paanat-021",
+    "imageRef": "paanat-021_pa026_f17.png",
+    "answer": "Gastric adenocarcinoma",
+    "brick": "Pathogen-Associated Neoplasms",
+    "category": "Histology & Cell Biology",
+    "explanation": "High-grade dysplasia becomes invasive gastric adenocarcinoma when the neoplastic cells invade through the basement membrane into surrounding tissues."
+  },
+  {
+    "id": "paanat-022",
+    "imageRef": "paanat-022_pa026_f18.png",
+    "answer": "MALT lymphoma",
+    "brick": "Pathogen-Associated Neoplasms",
+    "category": "Histology & Cell Biology",
+    "explanation": "Extranodal marginal zone (MALT) lymphoma of the stomach is associated with H. pylori and shows an increased population of small neoplastic B-cells; many cases regress after eradication."
+  },
+  {
+    "id": "paanat-023",
+    "imageRef": "paanat-023_pa029_f07.png",
+    "answer": "Apoptotic cell",
+    "brick": "Cell Death: Apoptosis and Necrosis",
+    "category": "Histology & Cell Biology",
+    "explanation": "Apoptotic cells shrink, become densely eosinophilic, and show condensed nuclei; because apoptosis is controlled and cells are cleared by phagocytes, there is little or no inflammation. Necrosis, by contrast, spills cell contents and provokes a prominent inflammatory response."
+  },
+  {
+    "id": "paanat-024",
+    "imageRef": "paanat-024_pa030_f06.png",
+    "answer": "H&E stain",
+    "brick": "Introduction to Anatomic Pathology",
+    "category": "Histology & Cell Biology",
+    "explanation": "In H&E staining, eosin stains cytoplasmic and extracellular components pink while hematoxylin stains nuclei blue-purple."
+  },
+  {
+    "id": "paanat-025",
+    "imageRef": "paanat-025_pa032_f02.png",
+    "answer": "Lymphocyte",
+    "brick": "Chronic Inflammation",
+    "category": "Histology & Cell Biology",
+    "explanation": "A small cell dominated by a round nucleus with scant cytoplasm is a lymphocyte. Neutrophils have multilobed nuclei, eosinophils have bilobed nuclei with red granules, monocytes are larger with reniform nuclei, and basophils contain dark blue granules."
+  },
+  {
+    "id": "paanat-026",
+    "imageRef": "paanat-026_pa033_f01.png",
+    "answer": "Extracellular matrix",
+    "brick": "Wound Healing and Tissue Repair",
+    "category": "Histology & Cell Biology",
+    "explanation": "The layer shown between epithelium and interstitium is the basement membrane, a specialized extracellular matrix rich in type IV collagen and laminin that provides an anchoring, supporting surface for the growth of epithelial, endothelial, and smooth muscle cells."
+  }
+]
