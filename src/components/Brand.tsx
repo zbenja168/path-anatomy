@@ -18,12 +18,23 @@ const BLURB =
 function BrandStyle() {
   return (
     <style>{`
-      @keyframes atParticle {
-        0%   { top: -2px; opacity: 0; }
-        15%  { opacity: 1; }
-        50%  { top: 50%;  opacity: 1; }
-        85%  { opacity: 1; }
-        100% { top: 100%; opacity: 0; }
+      /* Substrate rises through the transporter, the way it does in the
+         full loading scene — bottom to top, not top to bottom. */
+      @keyframes atMarkSub {
+        0%   { bottom: -8%; opacity: 0; transform: translateX(-50%) scale(0.7); }
+        20%  { opacity: 1; }
+        75%  { opacity: 1; }
+        100% { bottom: 86%; opacity: 0; transform: translateX(-50%) scale(0.5); }
+      }
+      @keyframes atMarkHead {
+        0%, 100% { transform: translateX(-50%) scale(1); }
+        50%      { transform: translateX(-50%) scale(1.12); }
+      }
+      .at-mark-sub  { transform: translateX(-50%); animation: atMarkSub 2.6s ease-in infinite; }
+      .at-mark-head { transform: translateX(-50%); animation: atMarkHead 2.6s ease-in-out infinite; }
+      @media (prefers-reduced-motion: reduce) {
+        .at-mark-sub  { animation: none; bottom: 40%; opacity: 1; }
+        .at-mark-head { animation: none; }
       }
       .at-wordmark {
         background: linear-gradient(135deg, #38bdf8 0%, #22d3ee 45%, #2dd4bf 100%);
@@ -41,9 +52,16 @@ function BrandStyle() {
   );
 }
 
+/** The transporter, abbreviated to a logo mark.
+ *
+ *  Same scene as the loading animation, reduced to what survives at 22px: two
+ *  leaflets of membrane, the transporter spanning them, its head above, and
+ *  substrate moving up through it. The old mark was a static channel with a
+ *  green dot; this is the same object doing its job.
+ */
 export function LogoMark({ size = 28 }: { size?: number }) {
   const u = size / 28; // scale factor relative to the 28px reference mark
-  const bar = (offset: number) => ({
+  const leaflet = (offset: number) => ({
     position: 'absolute' as const,
     left: 0,
     top: `calc(50% + ${offset * u}px)`,
@@ -55,25 +73,35 @@ export function LogoMark({ size = 28 }: { size?: number }) {
   });
   return (
     <span style={{ position: 'relative', display: 'inline-block', width: size, height: size, flexShrink: 0 }}>
-      <span style={bar(-5)} />
-      <span style={bar(0)} />
-      <span style={bar(5)} />
-      {/* channel protein */}
+      {/* the two leaflets of the bilayer */}
+      <span style={leaflet(-5)} />
+      <span style={leaflet(5)} />
+      {/* transporter body, spanning both leaflets the way a real one does */}
       <span
         style={{
           position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%,-50%)',
-          width: 8 * u, height: 14 * u, background: '#0f172a',
-          borderLeft: `${2 * u}px solid #22d3ee`, borderRight: `${2 * u}px solid #22d3ee`,
-          borderRadius: 2, zIndex: 1,
+          width: 8 * u, height: 15 * u, background: '#0d7f76',
+          borderLeft: `${1.6 * u}px solid #22d3ee`, borderRight: `${1.6 * u}px solid #22d3ee`,
+          borderRadius: 2 * u, zIndex: 1,
         }}
       />
-      {/* particle transported through the channel */}
+      {/* the head, where the work shows — turning, as in the full scene */}
       <span
+        className="at-mark-head"
         style={{
-          position: 'absolute', left: '50%', transform: 'translateX(-50%)',
-          width: 5 * u, height: 5 * u, borderRadius: '50%',
-          background: '#22c55e', boxShadow: '0 0 4px #22c55e', zIndex: 2,
-          animation: 'atParticle 2s ease-in-out infinite',
+          position: 'absolute', left: '50%', top: 2 * u,
+          width: 9 * u, height: 9 * u, borderRadius: '50%',
+          background: 'radial-gradient(circle at 35% 35%, #fde68a, #fbbf24 60%, #f59e0b)',
+          boxShadow: `0 0 ${4 * u}px rgba(251,191,36,0.6)`, zIndex: 2,
+        }}
+      />
+      {/* substrate carried up through the transporter */}
+      <span
+        className="at-mark-sub"
+        style={{
+          position: 'absolute', left: '50%',
+          width: 4 * u, height: 4 * u, borderRadius: '50%',
+          background: '#38bdf8', boxShadow: `0 0 ${3 * u}px #38bdf8`, zIndex: 3,
         }}
       />
     </span>
